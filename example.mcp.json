@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "librarian": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/dawiddutoit/librarian-mcp-server.git",
+        "librarian-mcp-server"
+      ],
+      "type": "stdio",
+      "description": "File indexer and retrieval for projects"
+    }
+  }
+}
